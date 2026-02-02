@@ -1,0 +1,7 @@
+{
+  "inputs": [
+    "Promoters are indispensable for the optimized performance and lifetime of industrial catalysts. Present-day systems nevertheless benefit only from a small number of different promoters, identified and often only locally optimized in laborious empirical research. Here, we present an accelerated discovery approach that globally explores a multipromoter design space with only limited experiments. Cornerstones are an efficient iterative design-of-experiment (DoE) planning of the measurements and a throughput maximization through a parallelized testing protocol. With less than 100 experiments conducted within weeks, we identify a competitive promoter chemistry for the nonoxidative propane dehydrogenation to propylene over alumina-supported Pt. This discovery rests on an achieved deep understanding of the positive and negative actions of multiple promoters on the reaction yield and deactivation. The iterative DoE strategy successively querying batches of experiments proves to be a powerful general concept for data-efficient hypothesis validation and insight-based adaptation of design spaces."
+  ]
+}
+
+

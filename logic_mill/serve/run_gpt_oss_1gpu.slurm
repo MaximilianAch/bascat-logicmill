@@ -21,7 +21,8 @@ module load cuda/12.8
 
 export CUDA_VISIBLE_DEVICES=0
 
-MODEL_PATH="/u/achmaxim/Research/llms/local_llms/data/OSS-120G"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+MODEL_PATH="$HOME/Research/llms/local_llms/data/OSS-120G"
 PORT=9731
 
 source ~/.bashrc
@@ -29,7 +30,7 @@ eval "$(pyenv init -)"
 pyenv shell vllm
 
 HOSTNAME=$(hostname)
-CONFIG_FILE="/dais/u/achmaxim/Research/llms/bascat/logic_mill/vllm_server_info_1gpu.json"
+CONFIG_FILE="$SCRIPT_DIR/../vllm_server_info_1gpu.json"
 
 trap "rm -f '$CONFIG_FILE'; echo 'Cleaned up $CONFIG_FILE'" EXIT
 
