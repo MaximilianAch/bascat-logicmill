@@ -1,0 +1,12 @@
+# Data directories
+inputs/
+results/
+summaries/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.python-version
